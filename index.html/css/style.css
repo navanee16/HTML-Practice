@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+.header{
+    background-color: #543eee;
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+.logo{
+    font-size: 40px;
+    color: ghostwhite;
+    margin: 20px 0px;
+
+}
+.header-wrapper .navi-items{
+    display: inline;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px whitesmoke;
+}
+
+
+.banner{
+    background-color: #543eee;
+    
+}
+.banner-flex-container{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.txt-heading{
+    margin: 7px 1px;
+    color: whitesmoke;
+    font-size: 70px;   
+}
+.txt{
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.text-area{
+    width: 50%;
+}
+.get-started{
+    font-size: 30px;
+    border-bottom:  whitesmoke;
+    color: whitesmoke;
+}
+.banner-image{
+    width: 100%;
+}
+
+
+.about{
+    background-color: white;
+}
+.about-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text-area{
+    width: 50%;
+    height: auto;
+}
+.about-txt-heaading{
+    font-size: 30px;
+    color: black;
+}
+.about-txt{
+    font-size: 15px;
+    color: black;
+    align-items: center;
+} 
+.about-image-area{
+    margin: 0px;
+    padding: 0px; 
+}
+.about-image{
+    width: 80%;
+    
+}
+
+.statistics{
+    background-color: #543eee;
+}
+.statistics-wrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    align-items: center;
+}
+.text-items{
+    text-align: center;
+}
+
+.text-items .text-heading{
+    font-size: 60px;
+    margin: 5px;
+    color:  white;
+}
+.text-items .text{
+    font-size: 20px;
+    color: #e3d5f5;
+    margin: 5px;
+}
+
+.srvices{
+    background-color: aliceblue;
+}
+.srvices-text-area{
+    font-size: 60px;
+    color: black;
+    text-align: center;
+}
+
+.card-area-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+}
+.card-area-wrapper .card-item{
+    align-items: center;
+    margin: 10px;
+
+}
+.card-logo{
+    font-size: 20px;
+    color: blue;
+    align-items: center;
+}
+.card-heading{
+    font-size: 10px;
+    color: gray;
+}
+.card-text{
+    font-size: 10px;
+    color: dimgray;
+}
+
+.features-text{
+    font-size: 20px;
+    color: black;
+}
+
+.features-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-text-area{
+    border: 2px solid black;
+    height: 200px;
+    width: 50%;
+}
+
+.features-image-area{
+    border: 2px solid red;
+    width: 50%;
+}
+
+.features-image{
+    width: 100%;
+}
