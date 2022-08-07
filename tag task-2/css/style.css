@@ -1,0 +1,11 @@
+.navigate{
+    border: 2px solid blue;
+    width: auto;
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: right;
+}
+
+.tbl{
+    border: 2px solid blue;
+}
