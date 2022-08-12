@@ -1,0 +1,149 @@
+ *{
+    /* text-align: center; */
+    font-style: italic;
+ }
+
+ /* element selector */
+p{
+    text-align: center;
+    color: brown;
+}
+
+/* id selector */
+#heading{
+    text-align: center;
+    color: blue;
+    border: 1px solid;
+}
+
+/* class selector */
+.line{
+    font-size: 20px;
+    color: aqua;
+    text-align: center;
+    
+}
+h1 .line{
+    font-size: 100px;
+    font-style: italic;
+    color: blue;
+}
+/* p .win{
+    font-size: 100px;
+} */
+
+/* group selector */
+h2, h3{
+    color: chartreuse;
+    font-size: 20px;
+}
+
+
+
+/* attribute selector */
+a[target]{
+    background-color: gold;
+}
+/* attribute~=value */
+[alt~=image]{
+    border: 5px solid;
+    width: 30%;
+}
+/* attribute|=value */
+[title|=no]{
+    background-color: blueviolet;
+    border: 2px solid;
+}
+/* attribute^=value */
+[title^=num]{
+    background-color: bisque;
+}
+/* attribute$=value */
+[class$=man]{
+    background-color: cadetblue;
+}
+/* attribute*=value */
+div[class*=men]{
+    color: greenyellow;
+}
+
+
+
+/* combinators selector */
+/*child selector */
+div > h1{
+    font-size: 40px;
+}
+/* adgacent selector */
+div + p{
+    border: 1px solid gold;
+}
+/* general selector */
+div ~ p{
+    border: 1px solid black;
+}
+
+/* pseuodo class */
+input:focus{
+    background-color: aliceblue;
+}
+ /* div:hover  */
+ section:hover{
+    border: 2px solid;
+    width: 200px;
+    background-color: blueviolet;
+    margin: auto;
+ }
+ /* tooltip hover */
+ section:hover{
+    color: aquamarine;
+ }
+ /* firstchild */
+ h4:first-child{
+    color: darkorange;
+ }
+ /* first i element */
+ p i:first-child{
+    color: deeppink;
+ }
+ /* p first element i */
+ p :first-child i{
+    color: blue;
+ }
+ /* lang pseudo class */
+ :lang(no){
+    quotes: "~""~";
+ }
+
+
+ /* pseudo element */
+ /* first line element */
+p::first-line{
+    color: red;
+    font-variant: small-caps;
+}
+/* first letter element */
+/* p::first-letter{
+    font-size: xx-large;
+} */
+/* before pseudo */
+pre::before{
+    content: "star";
+    color: brown;
+}
+/* after pseudo element */
+/* ::after{
+    content: "rolex";
+} */
+/* marker pseudo element */
+::marker{
+    color: cyan;
+    font-size: 20px;
+}
+/* selection pseudo element */
+::selection{
+    color: red;
+    background-color: yellow;
+}
+
+
