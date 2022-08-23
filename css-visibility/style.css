@@ -1,0 +1,37 @@
+.class1{
+    font-size: 40px;
+    border: 2px solid red;
+    visibility: visible;
+}
+
+.class2{
+    font-size: 40px;
+    border: 2px solid red;
+    visibility: hidden;
+
+}
+
+table,tr,td{
+    border: 2px solid black;
+    font-size: 40px;
+    background-color: slateblue;
+    /* visibility: collapse; */
+}
+
+.name{
+    visibility: collapse;
+
+
+}
+
+.invert{
+    border: 2px solid black;
+    font-size: 30px;
+    color: blue;
+}
+
+h1{
+    color: brown;
+    visibility: inherit;
+    /* visibility: initial; */
+}

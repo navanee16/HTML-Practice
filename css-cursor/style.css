@@ -1,0 +1,88 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: cornflowerblue;
+    text-shadow: 4px 4px 4px red;
+    cursor: no-drop;
+}
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.class1{
+    border: 1px solid black;
+    background-color: fuchsia;
+    height: 500px;
+    width: 200px;
+    cursor: pointer;
+    cursor: crosshair;
+}
+.class2{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    height: 500px;
+    width: 200px;
+    cursor: alias;
+    /* cursor: e-resize; */
+    /* cursor: ew-resize; */
+    /* cursor: n-resize; */
+    /* cursor: ns-resize; */
+    /* cursor: ne-resize; */
+    /* cursor: nesw-resize; */
+    /* cursor: nw-resize; */
+    /* cursor: nwse-resize; */
+    /* cursor: s-resize; */
+    /* cursor: se-resize; */
+    /* cursor: sw-resize; */
+    /* cursor: w-resize; */
+}
+.class3{
+    border: 1px solid black;
+    background-color: chartreuse;
+    height: 500px;
+    width: 200px;
+    cursor: all-scroll;
+    /* cursor: grab; */
+    /* cursor: move; */
+    /* cursor: grabbing; */
+    /* cursor: help; */
+    /* cursor: no-drop; */
+    /* cursor: not-allowed; */
+    
+
+}
+.class4{
+    border: 1px solid black;
+    background-color: brown;
+    height: 500px;
+    width: 200px;
+    cursor: cell;
+    /* cursor: none; */
+    /* cursor: progress; */
+    /* cursor: wait; */
+    /* cursor: row-resize; */
+    /* cursor: text; */
+    /* cursor: vertical-text; */
+    
+    
+}
+.class5{
+    border: 1px solid black;
+    background-color: burlywood;
+    height: 500px;
+    width: 200px;
+    /* cursor: col-resize; */
+    /* cursor: zoom-in; */
+    /* cursor: zoom-out; */
+
+}
+.class6{
+    border: 1px solid black;
+    background-color: aqua;
+    height: 500px;
+    width: 200px;
+    cursor: copy;
+}
+
+
+

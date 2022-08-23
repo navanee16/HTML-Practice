@@ -1,12 +1,7 @@
 *{
     box-sizing: border-box;
 }
-body{
-    height: 100vh;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-}
+
 #container{
     margin: auto;
     display: block;
@@ -15,6 +10,9 @@ body{
     background-color: #777;
     border-radius: 6px;
 }
+.heading{
+    text-align: center;
+}
 
 
 .form{
@@ -22,100 +20,7 @@ body{
     height: 60px;
     padding-top: 15px;
     font-style: italic;
-    visibility: visible;
-}
-.form:focus{
-    outline: none;
-    border-color: #777;
-}
-.form.success input{
-    border-color: #2ecc71;
-}
-/* .form.error input{
-    border-color:darkred;
-} */
-
-/* css fonts */
-.p1{
-    font-family: 'Courier New', Courier, monospace;
-}
-.p2{
-    font-family: sans-serif;
-}
-.p3{
-    font-family: serif;
-}
-.p4{
-    font-family: cursive;
-}
-.p5{
-    font-family: fantasy;
-}
-
-/* .hr{
-    font-style: normal;
-}
-.hr1{
-    font-style: italic;
-}
-.hr2{
-    font-style: oblique;
-} */ 
-
-.hr{
-    font-weight: bold;
-}
-.hr1{
-    font-weight: lighter;
-}
-.hr2{
-    font-weight: normal;
-}
-
-.para{
-    font-variant: small-caps;
     
 }
 
-.paragraph{
-    font-size: 1em;
-}
 
-/* css text */
-.para1{
-    color: #2ecc71;
-}
-
-.para2{
-    background-color: aquamarine;
-}
-
-.para3{
-    align-items: center;
-}
-
-.para4{
-    text-align-last: center;
-    background-color: rgb(red);
-}
-
-.pre{
-    text-decoration: overline;
-    text-decoration-color: firebrick;
-    text-decoration-style: solid;
-    text-shadow: 5px 5px 20px red;
-
-}
-.pre1{
-    text-decoration: underline;
-    text-decoration-color: #2ecc71;
-    text-decoration-style: wavy;
-    text-indent: 50px;
-    text-transform: uppercase;
-}
-.pre2{
-    text-decoration: line-through;
-    text-decoration-color: brown;
-    text-decoration-style: double;
-    text-indent: 30%;
-}

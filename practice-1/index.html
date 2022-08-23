@@ -9,74 +9,53 @@
 </head>
 <body>
     <div id="container">
-        <h1 class="heading">Create a Form <hr></h1>
+        <h1 class="heading"> Form <hr></h1>
+        <form action="./action.page.php" method="get" autocomplete="on" target="_self">
         <form class="form">
-               <table>USERNAME</table>
-            <input type="text" name="name" placeholder="username">
+            <label for="text">USERNAME:</label>
+            <input type="text" name="name" placeholder="username" required>
         </form>
         
         <form class="form">
-            <table>PASSWORD</table>
-            <input type="password" name="password" placeholder="password">
+            <label for="password">PASSWORD:</label>
+            <input type="password" id="password" placeholder="password" maxlength="12" minlength="8">
         </form>
+
         
         <form class="form">
-            <table>EMAIL</table>
+            <label for="email">EMAIL:</label>
             <input type="email" name="email" placeholder="@gmail.com">
          </form>
         <form class="form">
-            <table>GENDER</table>
+            <label for="radio">GENDER:</label>
             <input type="radio" name="gender" >male 
             <input type="radio" name="gender" >female
-        </form>   
+        </form> 
+        <form class="form">
+        <label for="hit">languages</label>  
+        <select name="hit" id="hit">
+            <option value="name">TAMIL</option>
+            <option value="name">ENGLISH</option>
+            <option value="name">HINDI</option>
+            <option value="name">MALAYALAM</option>
+        </select>
+        </form>
         <form class="form">    
-            <table>ADDRESS</table>
+            <label for="text">ADDRESS:</label>
             <input type="text" name="message" placeholder="TYPE HERE">
         </form> 
         <form class="form">
-            <table>DOB</table>            
+            <label for="date">DOB:</label>           
              <input type="date" name="date">
         </form> 
         <form class="form">
              <input type="submit">
         </form>
+        </form>
     </div>
-
+    <script src="main.js"></script>
     
-        <!-- css fonts -->
-        <p class="p1">welcome to India</p>
-        <p class="p2">welcome to Tamilnadu</p>
-        <p class="p3">welcome to Kerala</p>
-        <p class="p4">welcome to Chennai</p>
-        <p class="p5">welcome to Tirunelveli</p>
-
-        <h1 class="hr">my name is navanee</h1>
-        <h1 class="hr1">my name is navanee</h1>
-        <h1 class="hr2">my name is navanee</h1>
-
         
-        <h3 class="hr">my name is navanee</h3>
-        <h3 class="hr1">my name is navanee</h3>
-        <h3 class="hr2">my name is navanee</h3>
-        
-
-        <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum?</p>
-
-        <p class="paragraph">Lorem ipsum dolor sit amet.</p>
-
-        <!-- css text -->
-        <p class="para1">hello world</p>
-
-        <p class="para2">what is your father's name</p>
-
-        <p class="para3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id mollitia eaque totam.</p>
-        
-        <p class="para4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, doloremque! Optio deleniti voluptatum, assumenda velit deserunt magni quisquam maiores, numquam laboriosam architecto quaerat consectetur expedita.</p>
-       
-        <p class="pre">Lorem ipsum dolor sit amet.</p>
-        <p class="pre1">Lorem ipsum dolor sit amet.</p>
-        <p class="pre2">Lorem ipsum dolor sit amet.</p>
-
         
 </body>
 </html>
