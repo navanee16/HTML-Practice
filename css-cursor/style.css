@@ -14,7 +14,7 @@ h1{
     background-color: fuchsia;
     height: 500px;
     width: 200px;
-    cursor: pointer;
+    /* cursor: pointer; */
     cursor: crosshair;
 }
 .class2{
@@ -56,8 +56,8 @@ h1{
     background-color: brown;
     height: 500px;
     width: 200px;
-    cursor: cell;
-    /* cursor: none; */
+    /* cursor: cell; */
+    cursor: none;
     /* cursor: progress; */
     /* cursor: wait; */
     /* cursor: row-resize; */
@@ -72,7 +72,7 @@ h1{
     height: 500px;
     width: 200px;
     /* cursor: col-resize; */
-    /* cursor: zoom-in; */
+    cursor: zoom-in;
     /* cursor: zoom-out; */
 
 }

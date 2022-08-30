@@ -1,0 +1,55 @@
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkcyan;
+    height: 100px;
+    padding-top: 30px;
+}
+
+nav{
+    font-size: 30px;
+    padding-top: 35px;
+}
+li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 800px){
+    ul{
+        margin-top: 14px;
+        margin-left: 25%;
+    }
+    nav ul li{
+        display: block;
+        width: 300px;
+        background-color: brown;
+        text-align: center;
+    }
+    #nav{
+        display: none;
+    }
+    .head{
+        display: block;
+    }
+    li:hover{
+        background-color: bisque;
+    }
+    .name{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:800px) {
+    button{
+        display: none;
+    }
+    #nav{
+        display: block !important;
+    }
+   
+}
