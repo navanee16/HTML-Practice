@@ -1,0 +1,14 @@
+p{
+    font-size: 40px;
+    text-align: center;
+    color: brown;
+    font-style: italic;
+}
+
+@font-face{
+    font-family: navanee;
+    src: url(./Canterbury.ttf);
+}
+p{
+    font-family: navanee;
+}
