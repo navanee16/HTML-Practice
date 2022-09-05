@@ -1,0 +1,35 @@
+.head{
+ border: 2px solid black;
+ border-radius: 10px;
+ font-size: 30px;
+ width: 600px;
+ height: 200px;   
+ margin: auto;
+ color: red;
+ text-align: center;
+ padding-top: 50px;
+ background-color: burlywood;
+}
+
+.head:hover{
+    box-shadow: 20px 20px 10px 5px greenyellow inset;
+    /* box-shadow: 0px 0px 10px 20px rgba(0,0,0, 0.3); */
+
+
+}
+
+body{
+    padding-top: 80px;
+    background-color: cadetblue;
+}
+
+h1{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    font-style: italic;
+}
+
+h1:hover{
+    box-shadow: 3px 3px 5px blue;
+}
