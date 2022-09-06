@@ -1,0 +1,52 @@
+.header{
+    border: 2px solid;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: brown;
+    background-color: cadetblue;
+}
+.nav{
+    border: 2px solid;
+    height: 300px;
+    width: 100%;
+    background-color: cornsilk;
+    position: sticky;
+    top: 0%;
+}
+img{
+    width: 50%;
+    height: 700px;
+
+}
+.main2{
+    height: 500px;
+    position: relative;
+    left: 300px;
+}
+
+.para1{
+    font-size: 40px;
+    color: darkred;
+}
+.para2{
+    font-size: 30px;
+    border: 2px solid;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+
+.main3{
+    border: 2px solid black;
+    background-color: burlywood;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+
+}
